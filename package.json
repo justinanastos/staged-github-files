@@ -1,6 +1,6 @@
 {
   "name": "staged-github-files",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Node module to get get a list of all staged github files.",
   "main": "staged_github_files.js",
   "scripts": {
