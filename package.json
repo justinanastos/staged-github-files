@@ -1,0 +1,24 @@
+{
+  "name": "staged_github_files",
+  "version": "1.0.0",
+  "description": "Node module to get get a list of all staged github files.",
+  "main": "staged_github_files.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justinanastos/staged_github_files.git"
+  },
+  "author": "Justin Anastos <justin.anastos@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/justinanastos/staged_github_files/issues"
+  },
+  "homepage": "https://github.com/justinanastos/staged_github_files",
+  "dependencies": {
+    "shelljs": "^0.3.0",
+    "underscore": "^1.7.0",
+    "underscore.string": "^2.3.3"
+  }
+}
