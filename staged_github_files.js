@@ -22,7 +22,7 @@ module.exports = {
 
         // Staged files
         list = _.filter(list, function(line) {
-            return line.match(/^A./);
+            return line.match(/^[AM]./);
         });
 
         // Remove prefixes
