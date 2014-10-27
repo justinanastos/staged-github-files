@@ -17,8 +17,8 @@ module.exports = {
             return cachedFileList;
         }
 
-        response = exec('git status --porcelain', {silent: true, async: false}).output;
-        list = _s.trim(response).split(/\n/);
+        response = exec('git status --porcelain -z', {silent: true, async: false}).output;
+        list = _s.trim(response).split(/\0/);
 
         // Staged files
         list = _.filter(list, function(line) {
